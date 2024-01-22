@@ -30,7 +30,7 @@ export default function App() {
   // copy Button
   const copyToClipBoard = () => {
     passwordRef.current?.select();
-    passwordRef.current?.setSelectionRange(0,2);
+    passwordRef.current?.setSelectionRange(0,50);
     window.navigator.clipboard.writeText(password);
   };
 
